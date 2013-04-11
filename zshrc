@@ -10,6 +10,8 @@ then
   eval "$(rbenv init -)"
 fi
 
+PATH=$PATH:/sbin
+
 export PATH
 
 # Load zsh modules
