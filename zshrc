@@ -27,6 +27,14 @@ LOGCHECK=0
 # Prompts
 PS1=$'%{\e[0;37m%}%B%*%b %{\e[0;35m%}%m:%{\e[0;37m%}%~ %(!.#.>) %{\e[00m%}'
 
+# Language
+UTF8=en_US.UTF-8
+export LANG=$UTF8
+export LC_ALL=$UTF8
+export LC_LANG=$UTF8
+export LC_CTYPE=$UTF8
+export LANGUAGE=$UTF8
+
 # Use vim as editor if it exists
 if [[ -x $(which vim) ]]
 then
