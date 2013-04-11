@@ -26,6 +26,10 @@ autoload -U ~/.zsh/functions/*(:t)
 watch=notme
 LOGCHECK=0
 
+# Keys
+bindkey "[C" forward-word
+bindkey "[D" backward-word
+
 # Prompts
 PS1=$'%{\e[0;37m%}%B%*%b %{\e[0;35m%}%m:%{\e[0;37m%}%~ %(!.#.>) %{\e[00m%}'
 
