@@ -8,8 +8,7 @@ INSTALL_FILES=(\
   zsh \
 )
 
-SCRIPT=$(readlink -f $0)
-SOURCE_DIR=$(dirname $SCRIPT)
+SOURCE_DIR=$(dirname "${PWD}/${0}")
 
 for FILE in ${INSTALL_FILES[@]}
 do
@@ -20,3 +19,4 @@ do
     /bin/ln -s "${SOURCE_DIR}/${FILE}" "${HOME}/.${FILE}"
   fi
 done
+
