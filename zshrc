@@ -40,7 +40,7 @@ bindkey "[D" backward-word
 PS1=$'%{\e[0;37m%}%B%*%b %{\e[0;35m%}%m:%{\e[0;37m%}%~ %(!.#.>) %{\e[00m%}'
 
 # Language
-UTF8=en_US.UTF-8
+UTF8=sv_SE.UTF-8
 export LANG=$UTF8
 export LC_ALL=$UTF8
 export LC_LANG=$UTF8
