@@ -4,10 +4,10 @@ then
   PATH=$HOME/local/bin:$PATH
 fi
 
-if [[ -d "${HOME}/.rbenv" ]]
+if [[ -d "${HOME}/.pyenv" ]]
 then
-  PATH="${HOME}/.rbenv/bin:${PATH}"
-  eval "$(rbenv init -)"
+  PATH="${HOME}/.pyenv/bin:${PATH}"
+  eval "$(pyenv init -)"
 fi
 
 PATH=$PATH:/sbin
